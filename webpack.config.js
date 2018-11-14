@@ -1,19 +1,19 @@
 module.exports = {
   module: {
     rules: [
-      // {
-      //   test: /\.m?jsx?$/,
-      //   use: [
-      //     {
-      //       loader: "babel-loader",
-      //       options: {
-      //         babelrc: true,
-      //         cacheDirectory: false
-      //       }
-      //     }
-      //   ],
-      //   exclude: []
-      // }
+      {
+        test: /\.m?jsx?$/,
+        use: [
+          {
+            loader: "babel-loader",
+            options: {
+              babelrc: true,
+              cacheDirectory: false
+            }
+          }
+        ],
+        exclude: []
+      }
     ]
   },
   mode: "development",
