@@ -2,13 +2,13 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.m?jsx?$/,
         use: [
           {
             loader: "babel-loader",
             options: {
               babelrc: true,
-              cacheDirectory: true
+              cacheDirectory: false
             }
           }
         ],
